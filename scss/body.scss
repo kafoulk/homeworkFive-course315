@@ -11,6 +11,7 @@
     margin-bottom:30px;
     border-bottom: solid 1px black;
     margin: 50px;
+    cursor:pointer;
 }
 
 .briefRating {
@@ -19,4 +20,37 @@
 
 .briefDescription {
     margin-bottom:10px;
+}
+
+.bigHolder {
+    display:flex;
+    margin:0 auto;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-direction:column;
+    width:80vw;
+    margin-bottom:30px;
+    border-bottom: solid 10px black;
+    cursor:pointer;
+    text-align:left;
+    position:relative;
+}
+
+.close {
+    padding:10px 30px;
+    cursor:pointer;
+    width:100px;
+    height:50px;
+    background-color:rgb(212, 212, 212);
+    border:solid 1px darkgrey;
+    border-radius:30px;
+    position:absolute;
+    right:0;
+    display:flex;
+    margin:0 auto;
+    justify-content:center;
+    align-items:center;
+    color:rgb(31, 31, 31);
+    font-size:24px;
+
 }

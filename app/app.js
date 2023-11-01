@@ -1,84 +1,84 @@
 var GAMES = 
 [
     {
-       "gameTitle":"Genshin Impact",
-       "gameThumbImg":"genshin-impact.jpg",
-       "gameFullImg":"genshin-impact-FS.jpg",
+       "gameTitle":"Backpack",
+       "gameThumbImg":"backpack.jpg",
+       "gameFullImg":"backpackFS.jpg",
        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"M"
+       "gameRating":"$79.99"
     },
     {
-       "gameTitle":"Halo",
-       "gameThumbImg":"halo.jpg",
-       "gameFullImg":"halo-FS.jpg",
+       "gameTitle":"Chair",
+       "gameThumbImg":"chair.jpg",
+       "gameFullImg":"chairFS.jpg",
        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"M"
+       "gameRating":"$59.99"
     },
     {
-       "gameTitle":"FallOut",
-       "gameThumbImg":"falloutFour.jpg",
-       "gameFullImg":"falloutFour-FS.jpg",
+       "gameTitle":"Cook Utensils",
+       "gameThumbImg":"cookUtensils.jpg",
+       "gameFullImg":"cookUtensilsFS.jpg",
        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"M"
+       "gameRating":"$15.99"
     },
     {
-       "gameTitle":"Assassain's Creed",
-       "gameThumbImg":"aCreed.jpg",
-       "gameFullImg":"aCreed-FS.jpg",
+       "gameTitle":"Cot",
+       "gameThumbImg":"cot.jpg",
+       "gameFullImg":"cotFS.jpg",
        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"M"
+       "gameRating":"$99.99"
     },
     {
-        "gameTitle":"Battlefield",
-        "gameThumbImg":"battlefield.jpg",
-        "gameFullImg":"battlefield-FS.jpg",
+        "gameTitle":"Over-the-Fire Griddle",
+        "gameThumbImg":"grill.jpg",
+        "gameFullImg":"grillFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$89.99"
     },
     {
-        "gameTitle":"Borderlands",
-        "gameThumbImg":"Borderlands.jpg",
-        "gameFullImg":"Borderlands-FS.jpg",
+        "gameTitle":"Hammock",
+        "gameThumbImg":"hammock.jpg",
+        "gameFullImg":"hammockFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$39.99"
     },
     {
-        "gameTitle":"Call of Duty",
-        "gameThumbImg":"cod.jpg",
-        "gameFullImg":"cod-FS.jpg",
+        "gameTitle":"Lantern",
+        "gameThumbImg":"lantern.jpg",
+        "gameFullImg":"lanternFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$35.99"
     },
     {
-        "gameTitle":"Gears of War",
-        "gameThumbImg":"gow.jpg",
-        "gameFullImg":"gow-FS.jpg",
+        "gameTitle":"Outdoor Chess Table",
+        "gameThumbImg":"table.jpg",
+        "gameFullImg":"tableFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$49.99"
     },
     {
-        "gameTitle":"FarCry",
-        "gameThumbImg":"farCry.jpg",
-        "gameFullImg":"farCry-FS.jpg",
+        "gameTitle":"Camping Tent",
+        "gameThumbImg":"tent.jpg",
+        "gameFullImg":"tentFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$179.99"
     }, 
     {
-        "gameTitle":"Final Fantasy",
-        "gameThumbImg":"ff.jpg",
-        "gameFullImg":"ff-FS.jpg",
+        "gameTitle":"Waterproof Bag",
+        "gameThumbImg":"waterBag.jpg",
+        "gameFullImg":"waterBagFS.jpg",
         "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
         "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"M"
+        "gameRating":"$79.99"
     },
 ];
 
@@ -93,10 +93,12 @@ function loadData() {
             <div class="briefDescription">
                 L${game.gameBriefDescription}
             </div>
-            <div class="rating">Rating: ${game.gameRating}</div>
+            <div class="rating">Price: ${game.gameRating}</div>
         </div>
     </div>`);
     });
+
+     initListeners();
     // console.log(GAMES.gameTitle);
     // for (let i = 0; i < GAMES.length; i++) {
     //     console.log(GAMES[i].gameTitle);
@@ -104,9 +106,34 @@ function loadData() {
     // !-- Lines 41-44 is another way to flip back in forth between index variables in javascript.-->
 }
 
-function initListeners () {} 
+function initListeners () {
+    $(".gameHolder").click(function(e){
+        let gameIndex = e.currentTarget.id;
+        console.log(gameIndex);
+        $("#app").html(
+            `<div class="bigHolder">
+                <h2>${GAMES[gameIndex].gameTitle}</h2>
+                <div class="gameImage">
+                    <img src="images/fullSize/${GAMES[gameIndex].gameFullImg}" alt="${GAMES[gameIndex].gameTitle}">
+                </div>
+                <div class="gameDescription">
+                ${GAMES[gameIndex].gameDescription}
+                </div>
+                <div class="rating">Price: ${GAMES[gameIndex].gameRating}</div>
+            <div class="close">Back</div></div>`);
+
+            addCloseListener();
+    });
+} 
+
+function addCloseListener() {
+    $(".close").click(function (){
+        $("#app").html("");
+        loadData();
+    });
+}
 
 $(document).ready(function () {
-    // initListeners();
+   
     loadData();
 });

@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 30px;
   border-bottom: solid 1px black;
   margin: 50px;
+  cursor: pointer;
 }
 
 .briefRating {
@@ -41,4 +42,51 @@ h1, h2, h3, h4, h5, h6, p {
 
 .briefDescription {
   margin-bottom: 10px;
+}
+
+.bigHolder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 80vw;
+  margin-bottom: 30px;
+  border-bottom: solid 10px black;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+}
+
+.close {
+  padding: 10px 30px;
+  cursor: pointer;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(212, 212, 212);
+  border: solid 1px darkgrey;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgb(31, 31, 31);
+  font-size: 24px;
 }
