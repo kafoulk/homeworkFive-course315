@@ -1,0 +1,22 @@
+#app {
+    margin:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+
+.gameHolder {
+    width:150px;
+    margin-bottom:30px;
+    border-bottom: solid 1px black;
+    margin: 50px;
+}
+
+.briefRating {
+    font-size:9px;
+}
+
+.briefDescription {
+    margin-bottom:10px;
+}
