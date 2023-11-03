@@ -1,139 +1,538 @@
-var GAMES = 
-[
+var LISTS =[
+   {
+      "name":"Pants",
+      "listItems":[
+       {
+           "name":"Blue",
+           "checked":false
+        },
+        {
+           "name":"Green",
+           "checked":false
+        },
+        {
+           "name":"Brown",
+           "checked":false
+        },
+        {
+          "name":"Black",
+          "checked":false
+        },
+        {
+          "name":"Grey",
+          "checked":false
+        },
+        {
+          "name":"White",
+          "checked":false
+       },
+       {
+          "name":"Purple",
+          "checked":false
+       },
+       {
+          "name":"Red",
+          "checked":false
+       },
+       {
+         "name":"Yellow",
+         "checked":false
+       },
+       {
+         "name":"Pink",
+         "checked":false
+       },
+      ]
+   },
     {
-       "gameTitle":"Backpack",
-       "gameThumbImg":"backpack.jpg",
-       "gameFullImg":"backpackFS.jpg",
-       "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-       "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"$79.99"
+       "name":"Shorts",
+       "listItems":[
+        {
+            "name":"Blue",
+            "checked":false
+         },
+         {
+            "name":"Green",
+            "checked":false
+         },
+         {
+            "name":"Brown",
+            "checked":false
+         },
+         {
+           "name":"Black",
+           "checked":false
+         },
+         {
+           "name":"Grey",
+           "checked":false
+         },
+         {
+           "name":"White",
+           "checked":false
+        },
+        {
+           "name":"Purple",
+           "checked":false
+        },
+        {
+           "name":"Red",
+           "checked":false
+        },
+        {
+          "name":"Yellow",
+          "checked":false
+        },
+        {
+          "name":"Pink",
+          "checked":false
+        },
+       ]
     },
     {
-       "gameTitle":"Chair",
-       "gameThumbImg":"chair.jpg",
-       "gameFullImg":"chairFS.jpg",
-       "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-       "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"$59.99"
+        "name":"Socks",
+        "listItems":[
+             {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-       "gameTitle":"Cook Utensils",
-       "gameThumbImg":"cookUtensils.jpg",
-       "gameFullImg":"cookUtensilsFS.jpg",
-       "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-       "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"$15.99"
+        "name":"Shoes",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-       "gameTitle":"Cot",
-       "gameThumbImg":"cot.jpg",
-       "gameFullImg":"cotFS.jpg",
-       "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-       "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-       "gameRating":"$99.99"
+        "name":"Shirts",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-        "gameTitle":"Over-the-Fire Griddle",
-        "gameThumbImg":"grill.jpg",
-        "gameFullImg":"grillFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$89.99"
+        "name":"Jackets",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-        "gameTitle":"Hammock",
-        "gameThumbImg":"hammock.jpg",
-        "gameFullImg":"hammockFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$39.99"
+        "name":"Hats",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-        "gameTitle":"Lantern",
-        "gameThumbImg":"lantern.jpg",
-        "gameFullImg":"lanternFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$35.99"
+        "name":"Sunglasses",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-        "gameTitle":"Outdoor Chess Table",
-        "gameThumbImg":"table.jpg",
-        "gameFullImg":"tableFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$49.99"
+        "name":"Belts",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
     {
-        "gameTitle":"Camping Tent",
-        "gameThumbImg":"tent.jpg",
-        "gameFullImg":"tentFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$179.99"
-    }, 
-    {
-        "gameTitle":"Waterproof Bag",
-        "gameThumbImg":"waterBag.jpg",
-        "gameFullImg":"waterBagFS.jpg",
-        "gameBriefDescription":"Lorem ipsum dolor sit amet, consectur adipisicing elit. Quas, ",
-        "gameDescription":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt rerum culpa architecto dolorum ad excepturi quae doloribus, dolore consequuntur ut est blanditiis, porro quibusdam eaque minima ex vitae quis ratione!",
-        "gameRating":"$79.99"
+        "name":"Gloves",
+        "listItems":[
+            {
+                "name":"Blue",
+                "checked":false
+             },
+             {
+                "name":"Green",
+                "checked":false
+             },
+             {
+                "name":"Brown",
+                "checked":false
+             },
+             {
+               "name":"Black",
+               "checked":false
+             },
+             {
+               "name":"Grey",
+               "checked":false
+             },
+             {
+               "name":"White",
+               "checked":false
+            },
+            {
+               "name":"Purple",
+               "checked":false
+            },
+            {
+               "name":"Red",
+               "checked":false
+            },
+            {
+              "name":"Yellow",
+              "checked":false
+            },
+            {
+              "name":"Pink",
+              "checked":false
+            },
+        ]
     },
-];
+ ];
 
-function loadData() {
-    $.each(GAMES, function(idx, game) {
-        $("#app").append(`<div id="${idx}" class="gameHolder">
-        <h4>${game.gameTitle}</h4>
-        <div class="gameImage">
-            <img src="images/thumbnails/${game.gameThumbImg}" alt="${game.gameTitle}" width="150px" height="150px">
-        </div>
-        <div class="briefRating">
-            <div class="briefDescription">
-                L${game.gameBriefDescription}
-            </div>
-            <div class="rating">Price: ${game.gameRating}</div>
-        </div>
-    </div>`);
-    });
-
-     initListeners();
-    // console.log(GAMES.gameTitle);
-    // for (let i = 0; i < GAMES.length; i++) {
-    //     console.log(GAMES[i].gameTitle);
-    // }
-    // !-- Lines 41-44 is another way to flip back in forth between index variables in javascript.-->
+function itemChecked(element, listIndex, itemIndex){
+$(element).parent().toggleClass("strike");
+let checkedValue = !LISTS[listIndex].listItems[itemIndex].checked;
+LISTS[listIndex].listItems[itemIndex].checked = checkedValue;
+// console.log("checked" + LISTS[listIndex].listItems[itemIndex].checked);
 }
 
-function initListeners () {
-    $(".gameHolder").click(function(e){
-        let gameIndex = e.currentTarget.id;
-        console.log(gameIndex);
-        $("#app").html(
-            `<div class="bigHolder">
-                <h2>${GAMES[gameIndex].gameTitle}</h2>
-                <div class="gameImage">
-                    <img src="images/fullSize/${GAMES[gameIndex].gameFullImg}" alt="${GAMES[gameIndex].gameTitle}">
-                </div>
-                <div class="gameDescription">
-                ${GAMES[gameIndex].gameDescription}
-                </div>
-                <div class="rating">Price: ${GAMES[gameIndex].gameRating}</div>
-            <div class="close">Back</div></div>`);
+function addItem(listIndex) {
+    let newItemName = $("#addItem").val();
+    let newItemObj = {
+        name: newItemName,
+        checked: false,
+    };
 
-            addCloseListener();
-    });
-} 
-
-function addCloseListener() {
-    $(".close").click(function (){
-        $("#app").html("");
-        loadData();
-    });
+    LISTS[listIndex].listItems.push(newItemObj);
+    loadListItems(listIndex);
 }
+
+function deleteItem(listIndex, idx) {
+    LISTS[listIndex].listItems.splice(idx,1);
+    loadListItems(listIndex);
+}
+
+function loadListItems(listIndex) {
+    let listString = `<button onclick="loadLists()">Back</button><ul>`;
+    $.each(LISTS[listIndex].listItems, function (idx, listItem) {
+        listString += `<li id="${idx}" class="${listItem.checked ? "strike" : "" }"><input ${listItem.checked ? (checked = "checked") : ""} type="checkbox" id="${idx}" name="${listItem.name}" onclick="itemChecked(this, ${listIndex}, ${idx})"><span>${listItem.name}</span>
+        <span class="delete" onclick="deleteItem(${listIndex}, ${idx})">Delete</span></li>`;
+    });
+    listString += `</ul>
+    <div class="addItemInput">
+    <input id="addItem" type="text">
+    <button onclick="addItem(${listIndex})">Add Item</button>
+    </div>`;
+    $("#app").html(listString);
+}
+
+
+function loadLists() {
+    let listString = "<ul>";
+    $.each(LISTS, function (idx, list) {
+        listString += `<li id="${idx}" onclick="loadListItems(${idx})">${list.name} <span class="right">Items: ${list.listItems.length}</span></li>`;
+    });
+    listString += "</ul>";
+    $("#app").html(listString);
+}
+
+function initListeners() {}
+
+// function loadData() {
+//     $.each(GAMES, function(idx, game) {
+//         $("#app").append(``);
+//     });
+// <!-- this function moves visible UI data page from gallery or 'list' view to individual detail pages. -->
+
+//      initListeners();
+//     // console.log(GAMES.gameTitle);
+//     // for (let i = 0; i < GAMES.length; i++) {
+//     //     console.log(GAMES[i].gameTitle);
+//     // }
+//     // !-- Lines 41-44 is another way to flip back in forth between index variables in javascript.-->
+// }
+
+// function initListeners () {
+//     $(".gameHolder").click(function(e){
+//         let gameIndex = e.currentTarget.id;
+//         console.log(gameIndex);
+//         $("#app").html(``);
+
+//             addCloseListener();
+//     });
+// } 
+
+// function addCloseListener() {
+//     $(".close").click(function (){
+//         $("#app").html("");
+//         loadData();
+//     });
+// }
+// <!-- Lines 79 - 84 are the back button for detail page. -->
 
 $(document).ready(function () {
-   
-    loadData();
+   initListeners();
+    loadLists();
 });

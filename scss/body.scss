@@ -1,16 +1,18 @@
 #app {
     margin:50px;
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:space-evenly;
     flex-wrap: wrap;
+
 }
 
 .gameHolder {
     width:150px;
     margin-bottom:30px;
     border-bottom: solid 1px black;
-    margin: 50px;
+    margin: 50px 100px;
     cursor:pointer;
 }
 
@@ -20,6 +22,57 @@
 
 .briefDescription {
     margin-bottom:10px;
+}
+
+ul {
+background-color: blue;
+}
+
+li {
+    cursor:pointer;
+    list-style-type:none;
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:10px;
+    margin-top:20px;
+    width:30vw;
+    border-bottom:dotted 3px black;
+    position:relative;
+    background-color:purple;
+
+
+}
+
+li:nth-child(odd) {
+    // background-color: rgb(214, 214, 236);
+}
+
+li input {
+
+}
+
+li.strike {
+    text-decoration:line-through;
+}
+
+#addItem{
+    background-color:none;
+    margin-top:50px;
+}
+
+.right {
+    position:absolute;
+    right:50px;
+    padding:10px;
+}
+
+.delete {
+    cursor:pointer;
+    position:absolute;
+    left:15px;
+    background-color:rgb(228, 228, 228);
 }
 
 .bigHolder {

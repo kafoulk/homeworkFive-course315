@@ -18,6 +18,10 @@ h1, h2, h3, h4, h5, h6, p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5, h6, p {
   width: 150px;
   margin-bottom: 30px;
   border-bottom: solid 1px black;
-  margin: 50px;
+  margin: 50px 100px;
   cursor: pointer;
 }
 
@@ -42,6 +46,48 @@ h1, h2, h3, h4, h5, h6, p {
 
 .briefDescription {
   margin-bottom: 10px;
+}
+
+li {
+  cursor: pointer;
+  list-style-type: none;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+  width: 30vw;
+  border-bottom: dotted 3px black;
+  position: relative;
+}
+
+li.strike {
+  text-decoration: line-through;
+}
+
+#addItem {
+  background-color: none;
+  margin-top: 50px;
+}
+
+.right {
+  position: absolute;
+  right: 15px;
+  padding: 10px;
+}
+
+.delete {
+  cursor: pointer;
+  position: absolute;
+  right: 50px;
+  background-color: red;
 }
 
 .bigHolder {
