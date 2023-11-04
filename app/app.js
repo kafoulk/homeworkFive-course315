@@ -468,11 +468,13 @@ function addItem(listIndex) {
     LISTS[listIndex].listItems.push(newItemObj);
     loadListItems(listIndex);
 }
+// <!-- add item to list-->
 
 function deleteItem(listIndex, idx) {
     LISTS[listIndex].listItems.splice(idx,1);
     loadListItems(listIndex);
 }
+// <!-- execute delete button-->
 
 function loadListItems(listIndex) {
     let listString = `<button onclick="loadLists()">Back</button><ul>`;
@@ -487,6 +489,7 @@ function loadListItems(listIndex) {
     </div>`;
     $("#app").html(listString);
 }
+// <!-- load each item from main index and ind strings with back button --> 
 
 
 function loadLists() {
